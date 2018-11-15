@@ -1,5 +1,6 @@
 import numpy
 import matplotlib.pyplot
+#provide data
 
 data = numpy.loadtxt(fname='inflammation-01.csv', delimiter=',')
 
