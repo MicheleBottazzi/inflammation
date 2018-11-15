@@ -2,7 +2,7 @@ import numpy
 import matplotlib.pyplot
 #provide data
 
-data = numpy.loadtxt(fname='inflammation-01.csv', delimiter=',')
+data = numpy.loadtxt(fname='data/inflammation-01.csv', delimiter=',')
 
 fig = matplotlib.pyplot.figure(figsize=(10.0, 5.0))
 
