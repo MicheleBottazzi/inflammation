@@ -3,7 +3,7 @@ import matplotlib.pyplot
 #provide data
 
 data = numpy.loadtxt(fname='data/inflammation-01.csv', delimiter=',')
-
+#ciao bello
 fig = matplotlib.pyplot.figure(figsize=(10.0, 5.0))
 
 axes1 = fig.add_subplot(1, 3, 1)
